@@ -4,6 +4,23 @@
             "outputFile": "/Users/ruoyunzheng/AndroidStudioProjects/Hacktech/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ca/values-ca.xml",
             "map": [
                 {
+                    "source": "/Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/35c474734f06c3d6c1f712f5caa20b99/res/values-ca/values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "231,334",
+                        "endColumns": "102,90",
+                        "endOffsets": "333,424"
+                    },
+                    "to": {
+                        "startLines": "39,40",
+                        "startColumns": "4,4",
+                        "startOffsets": "4922,5029",
+                        "endColumns": "106,94",
+                        "endOffsets": "5024,5119"
+                    }
+                },
+                {
                     "source": "/Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/8d6b373fb816c2c1758a12358797b7b5/res/values-ca/values.xml",
                     "from": {
                         "startLines": "4",
@@ -47,11 +64,11 @@
                         "endOffsets": "168,276,399,505,612,695,803,929,1013,1094,1177,1288,1397,1495,1605,1709,1817,1940,2039,2120,2221"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,39,40",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,41,42",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,223,331,454,560,667,750,858,984,1068,1149,1232,1343,1452,1550,1660,1764,1872,1995,4922,5003",
+                        "startOffsets": "105,223,331,454,560,667,750,858,984,1068,1149,1232,1343,1452,1550,1660,1764,1872,1995,5124,5205",
                         "endColumns": "117,107,122,105,106,82,107,125,83,80,82,110,108,97,109,103,107,122,98,80,100",
-                        "endOffsets": "218,326,449,555,662,745,853,979,1063,1144,1227,1338,1447,1545,1655,1759,1867,1990,2089,4998,5099"
+                        "endOffsets": "218,326,449,555,662,745,853,979,1063,1144,1227,1338,1447,1545,1655,1759,1867,1990,2089,5200,5301"
                     }
                 }
             ]

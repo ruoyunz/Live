@@ -1,4 +1,4 @@
-#Sat Mar 03 02:17:13 PST 2018
+#Sat Mar 03 13:29:22 PST 2018
 base.0=/Users/ruoyunzheng/AndroidStudioProjects/Hacktech/app/build/intermediates/transforms/dexMerger/debug/7
 path.0=classes.dex
 renamed.0=classes.dex
