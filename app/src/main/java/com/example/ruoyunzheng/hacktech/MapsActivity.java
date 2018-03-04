@@ -1,5 +1,6 @@
 package com.example.ruoyunzheng.hacktech;
 
+import android.graphics.Color;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
@@ -14,14 +15,29 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.Toast;
+
 import com.google.android.gms.maps.model.MapStyleOptions;
+import com.google.android.gms.maps.model.TileOverlay;
+import com.google.android.gms.maps.model.TileOverlayOptions;
+import com.google.maps.android.heatmaps.Gradient;
 import com.google.maps.android.heatmaps.HeatmapTileProvider;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.InputStream;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
     private static final String TAG = MapsActivity.class.getSimpleName();
     HeatmapTileProvider mProvider;
+    TileOverlay mOverlay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +49,52 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapFragment.getMapAsync(this);
     }
 
+    private void addHeatMap() {
+        List<LatLng> list = null;
 
+        // Get the data: latitude/longitude positions of police stations.
+        try {
+            list = readItems(R.raw.places);
+        } catch (JSONException e) {
+            Toast.makeText(this, "Problem reading list of locations.", Toast.LENGTH_LONG).show();
+        }
+
+        // Create the gradient.
+        int[] colors = {
+                Color.rgb(255, 43, 117),
+                Color.rgb(163, 138, 255)
+        };
+
+        float[] startPoints = {
+                0.2f, 1f
+        };
+
+        Gradient gradient = new Gradient(colors, startPoints);
+
+        // Create a heat map tile provider, passing it the latlngs of the police stations.
+        mProvider = new HeatmapTileProvider.Builder()
+                .data(list)
+                .gradient(gradient)
+                .radius(40)
+                .opacity(.4)
+                .build();
+        // Add a tile overlay to the map, using the heat map tile provider.
+        mOverlay = mMap.addTileOverlay(new TileOverlayOptions().tileProvider(mProvider));
+    }
+
+    private ArrayList<LatLng> readItems(int resource) throws JSONException {
+        ArrayList<LatLng> list = new ArrayList<LatLng>();
+        InputStream inputStream = getResources().openRawResource(resource);
+        String json = new Scanner(inputStream).useDelimiter("\\A").next();
+        JSONArray array = new JSONArray(json);
+        for (int i = 0; i < array.length(); i++) {
+            JSONObject object = array.getJSONObject(i);
+            double lat = object.getDouble("lat");
+            double lng = object.getDouble("lng");
+            list.add(new LatLng(lat, lng));
+        }
+        return list;
+    }
 
 
     /**
@@ -62,6 +123,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.addMarker(new MarkerOptions().position(marked).title("location")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(marked));
-        mMap.animateCamera(CameraUpdateFactory.zoomTo(14));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(12));
+        addHeatMap();
     }
 }

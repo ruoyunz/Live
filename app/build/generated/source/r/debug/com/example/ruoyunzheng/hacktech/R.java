@@ -2738,6 +2738,7 @@ public final class R {
     public static final int amu_unknwown_folder=0x7f0b0011;
     public static final int amu_unsupported=0x7f0b0012;
     public static final int amu_visibility_ground_overlay=0x7f0b0013;
+    public static final int places=0x7f0b0014;
   }
   public static final class string {
     public static final int abc_action_bar_home_description=0x7f0c0000;
