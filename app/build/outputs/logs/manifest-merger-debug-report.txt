@@ -8,6 +8,7 @@ MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/ruoyunzheng/.gradle
 MERGED from [com.google.android.gms:play-services-places:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-places-11.8.0.aar/35c474734f06c3d6c1f712f5caa20b99/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/4a00cc14dc01d44c093acda317520cd8/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/72425a025de1207208e8d952eca96c4f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/1f10b134ba7d62940be93c41378caab7/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8c184455cedf87eef1f8e7876983af08/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b45860cef1b9c6ec2ed50ae59a630e3a/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f084f7c95b8db95e88a160d65193bc5/AndroidManifest.xml:17:1-29:12
@@ -57,6 +58,8 @@ MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ruoyunzhen
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/4a00cc14dc01d44c093acda317520cd8/AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/72425a025de1207208e8d952eca96c4f/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/72425a025de1207208e8d952eca96c4f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/1f10b134ba7d62940be93c41378caab7/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/1f10b134ba7d62940be93c41378caab7/AndroidManifest.xml:7:5-11:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8c184455cedf87eef1f8e7876983af08/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8c184455cedf87eef1f8e7876983af08/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b45860cef1b9c6ec2ed50ae59a630e3a/AndroidManifest.xml:22:5-26:19
@@ -139,6 +142,8 @@ MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ruoyunzhen
 MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/4a00cc14dc01d44c093acda317520cd8/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/72425a025de1207208e8d952eca96c4f/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-location-11.8.0.aar/72425a025de1207208e8d952eca96c4f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/1f10b134ba7d62940be93c41378caab7/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/1f10b134ba7d62940be93c41378caab7/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8c184455cedf87eef1f8e7876983af08/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/8c184455cedf87eef1f8e7876983af08/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/b45860cef1b9c6ec2ed50ae59a630e3a/AndroidManifest.xml:20:5-44
@@ -223,6 +228,14 @@ ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ruoyunzheng
 		ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/4a00cc14dc01d44c093acda317520cd8/AndroidManifest.xml:27:9-41
 	android:required
 		ADDED from [com.google.android.gms:play-services-maps:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/4a00cc14dc01d44c093acda317520cd8/AndroidManifest.xml:28:9-32
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/1f10b134ba7d62940be93c41378caab7/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/8d6b373fb816c2c1758a12358797b7b5/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/8d6b373fb816c2c1758a12358797b7b5/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/1f10b134ba7d62940be93c41378caab7/AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/android-maps-utils-0.5.aar/1f10b134ba7d62940be93c41378caab7/AndroidManifest.xml:9:13-58
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f084f7c95b8db95e88a160d65193bc5/AndroidManifest.xml:23:9-26:75
 	android:exported
@@ -231,12 +244,6 @@ ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/ruoyunzheng
 		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f084f7c95b8db95e88a160d65193bc5/AndroidManifest.xml:26:13-72
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/5f084f7c95b8db95e88a160d65193bc5/AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/8d6b373fb816c2c1758a12358797b7b5/AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/8d6b373fb816c2c1758a12358797b7b5/AndroidManifest.xml:25:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/8d6b373fb816c2c1758a12358797b7b5/AndroidManifest.xml:24:13-58
 meta-data#android.arch.lifecycle.VERSION
 ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ruoyunzheng/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/ddaa9079a98ef919b62762949c18ee7f/AndroidManifest.xml:25:9-27:47
 	android:value

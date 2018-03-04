@@ -7,6 +7,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -14,11 +15,13 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import com.google.android.gms.maps.model.MapStyleOptions;
+import com.google.maps.android.heatmaps.HeatmapTileProvider;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
     private static final String TAG = MapsActivity.class.getSimpleName();
+    HeatmapTileProvider mProvider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +59,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         // Add a marker in Sydney and move the camera
         LatLng marked = new LatLng(34.1377, -118.1253);
-        mMap.addMarker(new MarkerOptions().position(marked).title("location"));
+        mMap.addMarker(new MarkerOptions().position(marked).title("location")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(marked));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(14));
     }
